@@ -36,14 +36,14 @@ Lab 2 Branching commands:
 	12- git push origin test
 	
 	
-============================================================
+=================merging dev to main========================
 
 we're now merged with the main
 
 = to go to the main branch:
 	13- git checkout main
 	
-= to merge the main branch  with the dev branch:
+= to merge the main branch with the dev branch:
 	14- git merge dev
 	
 = edititing this file in main to confirm merging
@@ -56,9 +56,19 @@ we're now merged with the main
 	17- git push origin main
 
 
+=================merging test to main========================
 
 
-
+= to merge the main branch with the test branch:
+	18- git merge test.
+	
+= commit & add:
+	19- git add .
+	20- git commit -m "editing after merging"
+	
+= pushing
+	21- git push origin main
+	
 
 
 
