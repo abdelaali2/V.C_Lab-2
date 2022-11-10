@@ -1,19 +1,36 @@
-====================
-branching commands:
-====================
-at main:
-1- git checkout -b dev
+===========================
+Lab 2 Branching commands:
+===========================
+= at main:
+	1- git checkout -b dev
 
-to upload the branch to the remote repo:
-2- git push origin dev
+= to upload the branch to the remote repo:
+	2- git push origin dev
 
-to add a new file:
-3- touch branching_commmands.txt
+= to add a new file:
+	3- touch branching_commmands.txt
 
-txt file updated
+= txt file updated
 
-commit & add
-4- git commit -am "branching done"
+= commit & add
+	4- git add . 
+	5- git commit -m "branching done"
 
-pushing the updated file to the remote branch
-6- git push origin dev
+= pushing the updated file to the remote branch
+	6- git push origin dev
+
+= at dev:
+	7- git checkout -b test
+
+= to upload the branch to the remote repo:
+	8- git push origin dev
+
+= to add anew file:
+	9- echo 'testing' > test.txt
+	
+= commit & add
+	10- git add .
+	11- git commit -m "test branch done"
+	
+= pushing the updated file to the remote branch
+	12- git push origin test
