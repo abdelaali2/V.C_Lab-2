@@ -1,0 +1,19 @@
+====================
+branching commands:
+====================
+at main:
+1- git checkout -b dev
+
+to upload the branch to the remote repo:
+2- git push origin dev
+
+to add a new file:
+3- touch branching_commmands.txt
+
+txt file updated
+
+commit & add
+4- git commit -am "branching done"
+
+pushing the updated file to the remote branch
+6- git push origin dev
