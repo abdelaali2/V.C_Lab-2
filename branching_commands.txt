@@ -34,3 +34,32 @@ Lab 2 Branching commands:
 	
 = pushing the updated file to the remote branch
 	12- git push origin test
+	
+	
+============================================================
+
+we're now merged with the main
+
+= to go to the main branch:
+	13- git checkout main
+	
+= to merge the main branch  with the dev branch:
+	14- git merge dev
+	
+= edititing this file in main to confirm merging
+
+= commit & add:
+	15- git add .
+	16- git commit -m "editing after merging"
+	
+= pushing
+	17- git push origin main
+
+
+
+
+
+
+
+
+
