@@ -15,7 +15,7 @@ Used Commands:
 
 4- git pull origin main
 
-5- gi add.
+5- gi add .
 
 6- git commit -m "README Updated"
 
